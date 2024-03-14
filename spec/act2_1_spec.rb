@@ -22,7 +22,8 @@ RSpec.describe User do
 
   describe "#username" do
     it "returns the correct username" do
-      expect(user.username).to eq(username)
+      expect(user.username).to eq("Jacob")
     end
   end
+
 end

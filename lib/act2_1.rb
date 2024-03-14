@@ -15,6 +15,6 @@ class User
   end
 end
 
+test_user = User.new("test_user")
 
-
-puts user_test.username
+puts test_user.username
